@@ -1,0 +1,62 @@
+.displayTimer {
+    /* background: linear-gradient(to bottom right, rgba(43, 40, 71, 0.532), rgba(188, 191, 222, 0.51)),
+                linear-gradient(to left, rgba(255, 200, 0, rgba(255, 252, 77, 0.514)252, 77)),
+                linear-gradient(to top right, rgba(43, 40, 71, 0.49rgba(255, 252, 77, 0.534)77));
+    border-radius: 50%; */
+    /* vertical-align: middle; */
+    /* line-height: 50vh; */
+    border: none;
+    text-align: center;
+    width: 180vh;
+    margin-top: 20vh;
+    overflow: hidden;
+    font-size: 120px;
+    color: whitesmoke;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 0px;
+    margin-right: 0px;
+    white-space: nowrap;
+}
+
+.none {
+    display: none;
+}
+
+.all-buttons {
+    border: none;
+    margin-left: 74vh;
+    margin-top: 25vh;
+    justify-content: center;
+}
+
+.start-btn,
+.stop-btn,
+.reset-btn {
+    font-size: 2vh;
+    height: 10vh;
+    width: 10vh;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 5vh;
+}
+
+.start-btn {
+    background-color: rgb(35, 36, 64);
+    color: whitesmoke;
+    margin-right: 2vh;
+    font-weight: 700;
+}
+
+.stop-btn {
+    background-color: rgb(60, 20, 28);
+    color: whitesmoke;
+    margin-right: 2vh;
+    font-weight: 700;
+}
+
+.reset-btn {
+    background-color: rgb(43, 43, 43);
+    color: whitesmoke;
+    font-weight: 700;
+}
